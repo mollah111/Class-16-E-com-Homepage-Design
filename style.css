@@ -1,0 +1,54 @@
+.custom{
+    background-color: #138b29;
+}
+
+.custom-m {
+    margin: 5px;
+    height: 300px;
+    width: 200px;
+}
+
+@media screen and (max-width: 767px) {
+    .custom-m {
+        width: 30%;
+        height: 350px;
+    }
+}
+
+
+@media screen and (max-width: 474px) {
+    .custom-m {
+        width: 46%;
+       height: 320px;
+    }
+}
+
+.custom-text{
+    font-size: 14px;
+}
+
+.custom-btn{
+    padding: 2px;
+}
+
+.footer{
+    height: 250px;
+    background-color: rgb(14, 13, 13);
+    color: white;
+    margin-top: 5px;
+}
+
+.footer-item{
+    width: 33%;
+    float: left;
+    margin-top: 15px;
+    
+    
+}
+
+.link{
+    text-decoration: none;
+    color: beige;
+    display: block;
+    margin-top: 3px;
+}
